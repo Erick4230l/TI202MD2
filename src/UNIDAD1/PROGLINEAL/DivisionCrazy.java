@@ -1,6 +1,13 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+*ITESS-TICS 2025 Estructura y Organización de Datos
+*Periodo: Agosto Diciembre 2025
+*Docente: Francisco Javier Montecillo Puente
+*Descripción: Creando una biblioteca
+*Programador: EDRC
+*Email: erickdaniel4230l@gmail.com
+*Fecha: 8/octubre/2025
+*Compile and run
+*DivisionCrazy.java
  */
 package UNIDAD1.PROGLINEAL;
 
