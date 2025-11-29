@@ -9,19 +9,19 @@
 *Email: erickdaniel4230l@gmail.com
 *Fecha: 27/Noviembre/2025
 *Compile and run
-*Suma de nuemeros de un arreglo con recersividad 
+*Revertir los elementos de un arreglo
  */
 package Tema3_EstructurasNoLineales.Recursividad;
 
-public class Suma {
+public class reverseArray {
 
-    
+    public static void ReverseArray(int[] data, int low, int higth) {
+        if (low < higth) {
+            int temp = data[low];
+            data[low] = data[higth];
+            data[higth] = temp;
+            ReverseArray(data, low + 1, higth - 1);
 
-    public static int LinearSum(int[] data, int n) {
-        if (n == 0) {
-            return 0;
-        } else {
-            return LinearSum(data, n - 1) + data[n - 1];
         }
     }
 }
