@@ -9,19 +9,18 @@
 *Email: erickdaniel4230l@gmail.com
 *Fecha: 27/Noviembre/2025
 *Compile and run
-*Suma de nuemeros de un arreglo con recersividad 
+*Revertir los elementos de un arreglo
  */
 package Tema3_EstructurasNoLineales.Recursividad;
 
-public class Suma {
+import static Tema3_EstructurasNoLineales.Recursividad.Suma.LinearSum;
 
-    
-
-    public static int LinearSum(int[] data, int n) {
-        if (n == 0) {
-            return 0;
-        } else {
-            return LinearSum(data, n - 1) + data[n - 1];
-        }
-    }
+public class TestSuma {
+    public static void main(String[] args) {
+        int data[]={1,2,3};
+        System.out.println(LinearSum(data,3));
+        System.out.println(LinearSum(data,2));
+        System.out.println(LinearSum(data,1));
+           
+}
 }
