@@ -6,7 +6,7 @@ import java.util.Random;
 public class TestBubbleSorter{
 
     // Número de elementos a ordenar: 1,000,000
-    private static final int NUM_ELEMENTOS = 1000000;
+    private static final int NUM_ELEMENTOS = 100000;
 
     public static void main(String[] args) {
         String a="erick";
